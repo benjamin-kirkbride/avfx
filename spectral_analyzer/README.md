@@ -4,6 +4,8 @@ This program is designed to be used with a Teensy executing a FFT on an audio si
 
 ## Usage
 
+Create a `config.toml` file in the root directory of this project. See `config.toml.example` for an example.
+
 ```bash
 python -m spectral_analyzer
 ```
