@@ -1,0 +1,41 @@
+[project]
+name = "music_analyzer"
+version = "0.0.0" # why is this required
+requires-python = ">=3.11"
+
+dependencies = [
+  "scipy",
+  "numpy>=1.23.4", 
+  "pyaudio",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "mypy",
+  "ruff",
+  "types-pyaudio"
+]
+
+# TODO: add ruff configs
+
+[tool.black]
+line-length = 88
+target_version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''

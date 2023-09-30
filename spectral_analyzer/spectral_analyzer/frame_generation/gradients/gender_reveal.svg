@@ -1,0 +1,27 @@
+<!-- https://doodad.dev/gradient-generator?share=linear-180-50-50-50-50-8_12-a7d9ffff_48-d2e0ffff_89-ff337dff -->
+<svg height="100%" width="100%">
+  <defs>
+    <linearGradient id="0" x1="0.5" y1="0" x2="0.5" y2="1">
+      <stop offset="12%" stop-color="#a7d9ff" />
+      <stop offset="15.6%" stop-color="#add9ff" />
+      <stop offset="19.2%" stop-color="#b2daff" />
+      <stop offset="22.8%" stop-color="#b7dbff" />
+      <stop offset="26.4%" stop-color="#bbdbff" />
+      <stop offset="30%" stop-color="#c0dcff" />
+      <stop offset="33.6%" stop-color="#c4ddff" />
+      <stop offset="37.2%" stop-color="#c8ddff" />
+      <stop offset="40.8%" stop-color="#cbdeff" />
+      <stop offset="48%" stop-color="#d2e0ff" />
+      <stop offset="52.1%" stop-color="#cfd4ff" />
+      <stop offset="56.2%" stop-color="#d1c7ff" />
+      <stop offset="60.3%" stop-color="#d8b7ff" />
+      <stop offset="64.4%" stop-color="#e5a4ff" />
+      <stop offset="68.5%" stop-color="#f88aff" />
+      <stop offset="72.6%" stop-color="#ff77ed" />
+      <stop offset="76.7%" stop-color="#ff69d5" />
+      <stop offset="80.8%" stop-color="#ff5abd" />
+      <stop offset="89%" stop-color="#ff337d" />
+    </linearGradient>
+  </defs>
+  <rect fill="url(#0)" height="100%" width="100%" />
+</svg>

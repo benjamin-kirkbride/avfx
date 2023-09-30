@@ -1,0 +1,39 @@
+[project]
+name = "spectral_analyzer"
+version = "0.0.0" # why is this required
+requires-python = ">=3.11"
+
+dependencies = [
+  "Arcade==2.6.16",
+  "numpy==1.23.4", 
+  "tomli==2.0.1",
+  "Pillow==9.1.1",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "mypy",
+  "flake8",
+]
+
+[tool.black]
+line-length = 88
+target_version = ['py311']
+include = '\.pyi?$'
+exclude = '''
+(
+  /(
+      \.eggs         # exclude a few common directories in the
+    | \.git          # root of the project
+    | \.hg
+    | \.mypy_cache
+    | \.tox
+    | \.venv
+    | _build
+    | buck-out
+    | build
+    | dist
+  )/
+)
+'''
