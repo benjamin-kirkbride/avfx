@@ -1,6 +1,6 @@
 # Spectral Analyzer configuration
 
-serial_port = "/dev/ttyACM0"
+serial_port = "/tmp/music_analyzer_fifo"
 
 style = "center_out"
 
@@ -17,7 +17,7 @@ enabled = true
 
 # how large each pixel should appear on-screen
 # this directly effects the size of the window by multiplying each side
-display_scale = 40
+display_scale = 40 # 40 = 1080p
 
 # should a 1px grid be overlaid on each pixel?
 # this does not effect the window size
@@ -27,7 +27,7 @@ use_grid = true
 show_fps = false
 
 [led-matrix]
-enabled = true
+enabled = false # this should stay false unless you have an LED Wall (unlikely)
 
 # integer between 1 and 100 (percentage)
 brightness = 80
