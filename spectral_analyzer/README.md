@@ -2,9 +2,11 @@
 
 This program is designed to be used with a Teensy executing a FFT on an audio signal.
 
-## Future Plans
+## Usage
 
-- [ ] Do FFT processing locally with SciPi
+```bash
+python -m spectral_analyzer
+```
 
 ## Development
 
