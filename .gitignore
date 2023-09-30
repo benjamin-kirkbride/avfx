@@ -3,7 +3,6 @@ venv/
 example/
 secrets.h
 .vscode
-_*
 
 # exclude all toml (config) except pyproject
 *.toml
